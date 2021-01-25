@@ -1,2 +1,2 @@
 # VisualGo
-Training a CNN to recognize the current Go position with photorealistic renders
+<img src="https://raw.githubusercontent.com/LuanAdemi/VisualGo/main/assets/header.png">
