@@ -1,3 +1,6 @@
 goBoards/
 .ipynb_checkpoints/
 .virtual_documents/
+board_masks/
+state_dicts/
+__pycache__/
