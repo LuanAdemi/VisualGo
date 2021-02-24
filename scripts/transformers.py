@@ -1,3 +1,5 @@
+# a custom class for image transformations
+
 import numpy as np
 import cv2
 from scipy.spatial import distance as dist
@@ -10,6 +12,7 @@ import imutils
 
 import torchvision.transforms as T
 
+# PerspectiveTransformer: Warps an image using a polygon mask
 class PerspectiveTransformer:
     def __init__(self):
         self.output = np.float32([[0,0], [800-1,0], [800-1,800-1], [0,800-1]])
@@ -36,7 +39,7 @@ class PerspectiveTransformer:
         return imgOutput
     
     
-
+# ThreasholdTransformer: get the black and white parts of an image
 class ThreasholdTransformer:
     def filterBlack(self, img):
         ret_b, threash_b = cv2.threshold(img,40,255,cv2.THRESH_BINARY_INV)
@@ -49,8 +52,7 @@ class ThreasholdTransformer:
         return threash_w
     
     
-
-    
+# MaskTransformer: perspectively warps an image using a mask prediction of the passed model
 class MaskTransformer:
     def __init__(self, model, image_size):
         self.model = model
