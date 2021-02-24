@@ -1,2 +1,2 @@
 # VisualGo
-<img src="https://raw.githubusercontent.com/LuanAdemi/VisualGo/main/assets/header.png">
+Predicting the game state from a photo of a go board using CNNs.
