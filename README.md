@@ -2,6 +2,7 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LuanAdemi/VisualGo/HEAD)
 <a href="https://www.kaggle.com/luanademi/visualgo"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Kaggle"></a>
+[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
 
 VisualGo is a toolset of different machine learning algorithms to extract the current go board state from an image. It features two models, which first find the go board in the given image and then predict the current state. The basic pipeline of the whole model looks like the following:
 
@@ -30,4 +31,6 @@ I highly recommend checking them out with the <a href="https://mybinder.org/v2/g
 # References
 - [1] **U-Net: Convolutional Networks for Biomedical Image Segmentation**, *Olaf Ronneberger, Philipp Fischer, Thomas Brox* (https://arxiv.org/abs/1505.04597)
 
+# Techstack
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
+
