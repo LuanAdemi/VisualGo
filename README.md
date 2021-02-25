@@ -29,7 +29,10 @@ I highly recommend checking them out with the <a href="https://mybinder.org/v2/g
 
 
 # References
-- [1] **U-Net: Convolutional Networks for Biomedical Image Segmentation**, *Olaf Ronneberger, Philipp Fischer, Thomas Brox* (https://arxiv.org/abs/1505.04597)
+- [1] **U-Net: Convolutional Networks for Biomedical Image Segmentation**, *Olaf Ronneberger, Philipp Fischer, Thomas Brox*  
+[![arXiv](https://img.shields.io/badge/arXiv-1505.04597-b31b1b.svg)](https://arxiv.org/abs/1505.04597)
+- [2] **Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization**, *Ramprasaath R. Selvaraju, Michael Cogswell, et al.*
+[![arXiv](https://img.shields.io/badge/arXiv-1610.02391-b31b1b.svg)](https://arxiv.org/abs/1610.02391)
 
 # Techstack
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
