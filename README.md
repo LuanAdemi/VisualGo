@@ -34,6 +34,8 @@ As already mentioned, the images are actually photorealistic renders of random g
 
 You can find the dataset in its final form on <a href="https://www.kaggle.com/luanademi/visualgo">kaggle</a>. 
 
+It was rendered using blender and the following <a href="https://gist.github.com/LuanAdemi/6aac83f06d8d4394abc22e450af18a41">script</a>.
+
 # Inspiration
 - The awesome <a href="https://www.alphagomovie.com/">AlphaGo Movie</a>
 - Some other repositories (please check them out):
