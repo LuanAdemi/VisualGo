@@ -27,6 +27,18 @@ Here is a basic table of contents:
 
 I highly recommend checking them out with the <a href="https://mybinder.org/v2/gh/LuanAdemi/VisualGo/HEAD">binder link</a> I set up.
 
+# Dataset
+<img src="https://raw.githubusercontent.com/LuanAdemi/VisualGo/main/assets/header2.png">
+
+As already mentioned, the images are actually photorealistic renders of random go boards with randomized materials, camera positions and lighting (a deeper insight on how the data was generated is given in the EDA notebook). 
+
+You can find the dataset in its final form on <a href="https://www.kaggle.com/luanademi/visualgo">kaggle</a>. 
+
+# Inspiration
+- The awesome <a href="https://www.alphagomovie.com/">AlphaGo Movie</a>
+- Some other repositories (please check them out):
+  - https://github.com/maciejczyzewski/neural-chessboard [![arXiv](https://img.shields.io/badge/arXiv-1708.03898-b31b1b.svg)](https://arxiv.org/abs/1708.03898)
+  - https://github.com/pmauchle/ChessVision <-- this one actually uses almost the same approach :D
 
 # References
 - [1] **U-Net: Convolutional Networks for Biomedical Image Segmentation**, *Olaf Ronneberger, Philipp Fischer, Thomas Brox*  
