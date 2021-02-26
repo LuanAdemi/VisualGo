@@ -47,7 +47,7 @@ class ThreasholdTransformer:
         return threash_b
     
     def filterWhite(self, img):
-        ret_w, threash_w = cv2.threshold(imgOutput,140,255,cv2.THRESH_BINARY)
+        ret_w, threash_w = cv2.threshold(img,140,255,cv2.THRESH_BINARY)
         threash_w = cv2.cvtColor(threash_w, cv2.COLOR_BGR2GRAY)
         return threash_w
     
