@@ -28,6 +28,7 @@ Here is a basic table of contents:
 I highly recommend checking them out with the <a href="https://mybinder.org/v2/gh/LuanAdemi/VisualGo/HEAD">binder link</a> I set up.
 
 # Dataset
+<img src="https://raw.githubusercontent.com/LuanAdemi/VisualGo/41d58899ea0b458bb8acf5587ef07286c83b8993/assets/blenderScript.png">
 <img src="https://raw.githubusercontent.com/LuanAdemi/VisualGo/main/assets/header2.png">
 
 As already mentioned, the images are actually photorealistic renders of random go boards with randomized materials, camera positions and lighting (a deeper insight on how the data was generated is given in the EDA notebook). 
@@ -35,6 +36,8 @@ As already mentioned, the images are actually photorealistic renders of random g
 You can find the dataset in its final form on <a href="https://www.kaggle.com/luanademi/visualgo">kaggle</a>. 
 
 It was rendered using blender and the following <a href="https://gist.github.com/LuanAdemi/6aac83f06d8d4394abc22e450af18a41">script</a>.
+
+
 
 # Inspiration
 - The awesome <a href="https://www.alphagomovie.com/">AlphaGo Movie</a>
